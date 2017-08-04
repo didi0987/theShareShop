@@ -5,7 +5,6 @@
   </div>
 </template>
 <style>
-
 .article_ad1
 {
 background-image: url("/../../resource/images/demo/ad1.jpg");
