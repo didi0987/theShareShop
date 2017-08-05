@@ -15,41 +15,7 @@
 </div>
 <div class="wrapper row3">
   <main class="hoc container clear">
-    <!-- main body -->
-    <!-- ################################################################################################ -->
-    <!--
-    <div class="sectiontitle">
-      <h6 class="heading coachtitle">学岛 <div class="bigdot">·</div> 留学特惠包</h6>
-      <p>现仅   <i class="fa fa-rmb"></i>  992 元</p>
-    </div>
-    <div class="group">
-      <div class="one_half first">
-        <p>Fringilla sapien quis sollicitudin dui mauris et dui sed eget lectus vitae augue feugiat elementum sed luctus.</p>
-        <p class="btmspace-50">Integer sodales odio a ultrices feugiat ligula augue tempor orci ullamcorper mattis erat pede at magna aliquam nisl etiam congue quisque vel ante quis massa tristique.</p>
-        <ul class="nospace group">
-          <li class="one_half first">
-            <article><a href="#"><i class="icon btmspace-30 fa fa-joomla"></i></a>
-              <h6 class="heading font-x1">Iaculis nam nulla</h6>
-              <p>Lacinia quis ornare a eros aliquam leo curabitur pretium enim et mauris duis elit&hellip;</p>
-            </article>
-          </li>
-          <li class="one_half">
-            <article><a href="#"><i class="icon btmspace-30 fa fa-institution"></i></a>
-              <h6 class="heading font-x1">Augue faucibus nec</h6>
-              <p>Fusce malesuada neque non odio class aptent taciti sociosqu ad litora torquent per&hellip;</p>
-            </article>
-          </li>
-        </ul>
-      </div>
-      <div class="one_half">
 
-
-          <readypackage></readypackage>
-
-      </div>
-    </div>-->
-    <!-- ################################################################################################ -->
-    <!-- / main body -->
     <div class="clear"></div>
   </main>
 </div>
@@ -57,16 +23,19 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
-  <!--<h6>商品1：申硕士，定学校-易选校</br>（仅英国、澳洲、新西兰、香港）</br>定价：279元/3份选校定位方案；</br>（均赠送1小时顾问1对1选校答疑时间）</br></h6>-->
-  <!--    <div class="fl_left title3"><i class="fa fa-credit-card fa-2x"></i> <h3>在购买之后，将会收到“选校方案”和“服务报价” </h3></div>-->
+
 <div class="wrapper row3">
-  <main id="worryfree" class="hoc container clear">
-  <div class="sectiontitle">
-    <!--<h6 class="heading coachtitle">申硕士，定学校-易选校</h6>-->
+  <main id="ez" class="hoc container clear">
+  <div class="title_section">
     </br>
-    <p>学岛易选校 — 你的留学方案专家</p>
+      <div class="title4">学岛易选校</div>
+      <p class="title1">教你选学校，帮你选专业</p>
     </br>
-    <h2 class="cocachtitle">不知道选择哪个留学顾问 <i class="fa fa-question" aria-hidden="true"></i> 不用担心,我们替你货比三家</h2>
+
+
+    <p class="title2"><span class="icon_1">3</span>份升学计划</p>
+    <p class="title2"><span class="icon_1">3</span>次内部推荐</p>
+    <p class="title2"><span class="icon_1">3</span>重质量保障</p>
       </div>
 <a name="buybutton"></a>
 <eztable></eztable>
@@ -211,6 +180,53 @@
 </div>
 
 </template>
+
+    <style>
+
+    .image-circle {border-radius:50%;}
+    .coach-avatar{background-color:#FFFFFF;height:100px; margin-bottom:20px;}
+    .coach-button{    margin:30px auto 0px auto;    background-color:#FFFFFF;    width: 50%;    height: 35px;font-size:14px;border-width:0px;}
+    .coach-strong{
+        margin:0px auto;
+        display:inline-block;
+    }
+    .coach-button strong a
+    {
+    color:#797979;
+    display:block;
+    }
+    #ez {background-color: #FBFBFB;padding:15px;transform: translate3d(0,-2px,0);box-shadow: 0 0px 24px 0 rgba(149,96,62,.3);}
+    #ez .fa-credit-card ,.fa-handshake-o{color:#54ABDC;display:inline;}
+    #ez .title_section{background-color: rgb(251,251,251)}
+    #ez .title1{ color: #212223;font-size: 37px; font-weight: 400; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+    #ez .title4:before {content: "";	border-top: 1px solid #adb0b2;	display: block;	position: absolute;	width: 60px;	top: 10px;	left: 0}
+    #ez .title4:after {	content: "";	border-top: 1px solid #adb0b2;	display: block;	position: absolute;	width: 60px;	top: 10px;	right: 0}
+    #ez .title2{ color: #54ABDC; font-size: 20px; font-weight: 800; line-height: 36px; margin: 0 0 24px; text-align: center; }
+    #ez .title3{width:100%;margin-bottom:17px;}
+    #ez .title4{width:300px;font-size: 19px; font-weight: 600;	color: #adb0b2;	margin: 0 auto;	position: relative;	text-align: center;}
+    #ez .icon_1{background-color: #54ABDC;font-size: 30px;padding: 8px;margin:15px;color:#FBFBFB}
+    #ez .icon_1:after{content:""}
+    #ez li{display: inline-block;margin: 14px auto;width: 99%;}
+    #ez h4{border-left-style:solid;border-left-color: #54ABDC;text-align:left;padding: 0 0 0 15px;}
+    #ez h3{color:#54ABDC;display:inline;margin: 0 7px 0;}
+    #ez h6{font-size: 20px;}
+    #ez .container{margin-top:66px; }
+
+    #ez .qa_panel {padding: 0 18px;background-color: #FBFBFB;max-height: 0;overflow: hidden;transition: max-height 0.2s ease-out;}
+    #ez .accordion h4:before {content: '\02795'; /* Unicode character for "plus" sign (+) */font-size: 17px;color: #777;float: left;margin: 2px 2px 0px 0px;}
+
+    #ez .accordion.active h4:before {content: "\2796"; /* Unicode character for "minus" sign (-) */}
+
+
+    #ez .ul_higher{margin-top:-54px};
+    @media screen and (max-width:750px) {
+      #ez .title3{font-size:11px;}
+      #ez .title1{font-size:25px;}
+      #ez .title4{width:250px;}
+      #ez .ul_higher{margin-top:-38px};
+    }
+
+    </style>
     <script>
 
    import myheader  from "../components/header/header.vue"
@@ -260,61 +276,3 @@ onToggle:function(e){
 
 
     </script>
-    <style>
-
-    .image-circle
-    {
-    border-radius:50%;
-    }
-    .coach-avatar
-    {
-    background-color:#FFFFFF;
-    height:100px;
-    margin-bottom:20px;
-    }
-    .coach-button
-    {
-    margin:30px auto 0px auto;
-    background-color:#FFFFFF;
-    width: 50%;
-    height: 35px;
-    font-size:14px;
-    border-width:0px;
-    }
-    .coach-strong{
-        margin:0px auto;
-        display:inline-block;
-    }
-    .coach-button strong a
-    {
-    color:#797979;
-    display:block;
-    }
-    #worryfree {background-color: #FBFBFB;padding:15px;transform: translate3d(0,-2px,0);box-shadow: 0 0px 24px 0 rgba(149,96,62,.3);}
-    #worryfree .fa-credit-card ,.fa-handshake-o{color:#54ABDC;display:inline;}
-    #worryfree .title3{width:100%;margin-bottom:17px;}
-    #worryfree li{display: inline-block;margin: 14px auto;width: 99%;}
-    #worryfree h4{border-left-style:solid;border-left-color: #54ABDC;text-align:left;padding: 0 0 0 15px;}
-    #worryfree h3{color:#54ABDC;display:inline;margin: 0 7px 0;}
-    #worryfree h6{font-size: 20px;}
-    #worryfree .container{margin-top:66px; }
-
-    #worryfree .qa_panel {padding: 0 18px;background-color: #FBFBFB;max-height: 0;overflow: hidden;transition: max-height 0.2s ease-out;}
-    #worryfree .accordion h4:before {
-        content: '\02795'; /* Unicode character for "plus" sign (+) */
-        font-size: 17px;
-        color: #777;
-        float: left;
-        margin: 2px 2px 0px 0px;
-    }
-
-    #worryfree .accordion.active h4:before {
-        content: "\2796"; /* Unicode character for "minus" sign (-) */
-    }
-    #worryfree .ul_higher{margin-top:-54px};
-    @media screen and (max-width:750px) {
-      #worryfree .title3{font-size:11px;}
-      #worryfree .ul_higher{margin-top:-38px};
-
-    }
-    </style>
