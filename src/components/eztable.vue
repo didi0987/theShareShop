@@ -2,18 +2,21 @@
 <div class="pricing-table">
 <div class="pricing-row">
 
-  <h6 class="title">学岛 <div class="bigdot">·</div> 易选校</h6>
+  <h6 class="title">学岛 <i class="fa fa-times" aria-hidden="true"></i> 易选校</h6>
 
 </div>
 <div class="pricing-row price">
 <i class="fa fa-rmb"></i>  279 元
 </div>
 <div class="pricing-row content">
-<strong>3</strong> 份选校定位方案以及留学服务报价 </br>
+<strong>3</strong> 份海外留学升学计划
+</br>
+1个小时行家单独解读
+ </br>
 (仅英国、澳洲、新西兰、香港)
 </div>
 <div class="pricing-row content">
-均赠送1小时顾问1对1选校答疑时间
+赠送：3次海外名校<strong>内部见面会</strong>机会</br><i class="fa fa-chevron-left thesharecolor" aria-hidden="true"></i>名额有限<i class="fa fa-chevron-right thesharecolor" aria-hidden="true"></i>
 </div>
 <div name="buybutton" class="pricing-row">
 <button @click="onBuy">立刻购买</button>
@@ -32,6 +35,7 @@
     margin: 2rem auto;
     width:50%;
 }
+.pricing-table .thesharecolor{color:#54ABDC;}
 @media screen and (max-width:976px) {
 .pricing-table {width:90%;}
 }
