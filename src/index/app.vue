@@ -244,7 +244,7 @@
       #ez .title4{width:250px;}
       #ez  h4{font-size:17px;}
       #ez .ul_higher{margin-top:-10px};
-
+      #ez .contact .method{font-size:14px;width:150px;float:right;}
     }
 
     </style>
