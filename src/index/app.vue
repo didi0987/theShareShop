@@ -25,7 +25,7 @@
 <!-- ################################################################################################ -->
 
 <div class="wrapper row3">
-  <main id="ez" class="hoc container clear">
+  <main id="ez" class="hoc container clesar">
   <div class="title_section">
     </br>
       <div class="title4">学岛易选校</div>
@@ -33,9 +33,9 @@
     </br>
 
 
-    <p class="title2"><span class="icon_1">3</span>份升学计划</p>
-    <p class="title2"><span class="icon_1">3</span>次内部推荐</p>
-    <p class="title2"><span class="icon_1">3</span>重质量保障</p>
+    <p class="title2"><span class="icon_1">3<span style="font-size:20px">份</span></span>升学计划</p>
+    <p  class="title2"><span style="margin-left:49px;"><span class="icon_1">3<span style="font-size:20px">次</span></span>内部推荐</span><span class="corner-ribbon">学岛独家</span></p>
+    <p class="title2"><span class="icon_1">3<span style="font-size:20px">重</span></span>质量保障</p>
       </div>
 <a name="buybutton"></a>
 <eztable></eztable>
@@ -206,6 +206,7 @@
     #ez .title4{width:300px;font-size: 19px; font-weight: 600;	color: #adb0b2;	margin: 0 auto;	position: relative;	text-align: center;}
     #ez .icon_1{background-color: #54ABDC;font-size: 30px;padding: 8px;margin:15px;color:#FBFBFB}
     #ez .icon_1:after{content:""}
+    #ez .corner-ribbon{background:#ee4433;width:60px;color:#FFF;font-size: 11px;margin-bottom: 5px;z-index: 1;position: relative;top: -20px;padding: 3px;}
     #ez li{display: inline-block;margin: 14px auto;width: 99%;}
     #ez h4{border-left-style:solid;border-left-color: #54ABDC;text-align:left;padding: 0 0 0 15px;}
     #ez h3{color:#54ABDC;display:inline;margin: 0 7px 0;}
