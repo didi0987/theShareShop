@@ -41,7 +41,6 @@
 <eztable></eztable>
 
     <div class="group">
-
   <div class="one_half first">
 
 <ul>
