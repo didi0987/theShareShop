@@ -1,7 +1,7 @@
 <template>
   <div id='app'>
 <div class="wrapper row0">
-    <img src="../resource/images/demo/weixin_pay.jpg"></img>
+    <img src="/shop/resource/images/demo/weixin_pay.jpg"></img>
     <!-- </div> -->
 </div>
 </div>
