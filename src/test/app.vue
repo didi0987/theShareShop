@@ -1,7 +1,7 @@
 <template>
   <div id='app'>
-<div class="wrapper row0">
-    <img src="/shop/resource/images/demo/weixin_pay.jpg"></img>
+<div class="wrapper row3">
+  <gallery2></gallery2>
     <!-- </div> -->
 </div>
 </div>
@@ -9,3 +9,14 @@
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
+
+<script>
+ import gallery2  from "../components/gallery/gallery2.vue"
+export default {
+name:'app',
+components:{
+  gallery2
+}
+
+}
+</script>
