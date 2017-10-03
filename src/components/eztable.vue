@@ -6,7 +6,7 @@
 
 </div>
 <div class="pricing-row price">
-<i class="fa fa-rmb"></i> 限时 2 元
+<i class="fa fa-rmb"></i> 279 元
 </div>
 <div class="pricing-row content">
 <strong>3</strong> 份海外留学升学计划
